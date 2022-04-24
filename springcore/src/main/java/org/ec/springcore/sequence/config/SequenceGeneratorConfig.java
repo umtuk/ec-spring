@@ -8,22 +8,16 @@ import org.springframework.context.annotation.FilterType;
 
 @Configuration
 @ComponentScan(
+        basePackages = "org.ec.springcore.sequence",
         includeFilters = {
                 @ComponentScan.Filter(
                         type = FilterType.REGEX,
-                        pattern = {
-                                "org.ec.springcore.sequence.*"
-                        }
-                )
+                        pattern = {"org.ec.springcore.sequence.dao.*Dao"})
         },
         excludeFilters = {
                 @ComponentScan.Filter(
                         type = FilterType.ANNOTATION,
-                        classes = {
-                                org.springframework.stereotype.Controller.class
-                        }
-                )
-        }
+                        classes = {org.springframework.stereotype.Controller.class}) }
 )
 public class SequenceGeneratorConfig {
 
