@@ -1,8 +1,8 @@
 package org.ec.forum.domain.forum.service;
 
-import org.ec.forum.domain.forum.exception.dto.ForumRegistrationForm;
-import org.ec.forum.domain.forum.exception.dto.ForumResponseForm;
-import org.ec.forum.domain.forum.exception.dto.ForumUpdateForm;
+import org.ec.forum.domain.forum.dto.ForumRegistrationForm;
+import org.ec.forum.domain.forum.dto.ForumResponseForm;
+import org.ec.forum.domain.forum.dto.ForumUpdateForm;
 import org.springframework.data.domain.Pageable;
 
 public interface ForumService {

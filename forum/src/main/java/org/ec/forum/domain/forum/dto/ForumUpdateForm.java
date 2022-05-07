@@ -1,4 +1,4 @@
-package org.ec.forum.domain.forum.exception.dto;
+package org.ec.forum.domain.forum.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

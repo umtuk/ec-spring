@@ -1,7 +1,7 @@
 package org.ec.forum.domain.forum.util.converter;
 
-import org.ec.forum.domain.forum.exception.dto.ForumRegistrationForm;
-import org.ec.forum.domain.forum.exception.dto.ForumResponseForm;
+import org.ec.forum.domain.forum.dto.ForumRegistrationForm;
+import org.ec.forum.domain.forum.dto.ForumResponseForm;
 import org.ec.forum.domain.forum.entity.Forum;
 
 public class ForumEntityConverter {

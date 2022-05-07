@@ -1,9 +1,9 @@
 package org.ec.forum.domain.forum.controller;
 
 import lombok.RequiredArgsConstructor;
-import org.ec.forum.domain.forum.exception.dto.ForumRegistrationForm;
-import org.ec.forum.domain.forum.exception.dto.ForumResponseForm;
-import org.ec.forum.domain.forum.exception.dto.ForumUpdateForm;
+import org.ec.forum.domain.forum.dto.ForumRegistrationForm;
+import org.ec.forum.domain.forum.dto.ForumResponseForm;
+import org.ec.forum.domain.forum.dto.ForumUpdateForm;
 import org.ec.forum.domain.forum.exception.ForumNotFoundException;
 import org.ec.forum.domain.forum.exception.ForumRegistrationInvalid;
 import org.ec.forum.domain.forum.exception.ForumUpdateInvalid;
